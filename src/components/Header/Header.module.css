@@ -1,6 +1,8 @@
 .headerClass {
-  background-color: #d1d1d1;
+  background-color: #7eb6e6;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   font-family: Roboto;
+  font-size: 20px;
+  color: #ffffff;
 }
