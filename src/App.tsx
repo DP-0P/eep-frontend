@@ -9,7 +9,7 @@ function App() {
     <>
       <Header title={"Employee Exit Portal"}></Header>
       <LoginSignup></LoginSignup>
-      <Footer title={"Oranization Name Copyright"}></Footer>
+      <Footer title={"Oranization Name Copyright "}></Footer>
     </>
   )
 }

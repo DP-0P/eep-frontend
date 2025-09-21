@@ -10,21 +10,20 @@ const LoginSignup: React.FC<LoginSignupProps> = () =>{
     return (
         <div className={styles.loginForm}>
         <TextField
+            className={styles.textField}
             required
             id="outlined-required"
-            label="First Name"/>
-        <TextField
-            required
-            id="outlined-required"
-            label="Last Name"
-        />
+            label="Employee ID"
+            sx={{ width: 300}}/>
         <TextField
             id="outlined-password-input"
             label="Password"
             type="password"
             autoComplete="current-password"
+            sx={{ width: 300}}
         />
-        <Button variant="contained">SignUp</Button>
+        <Button variant="contained"
+        sx={{ width: 300}}>Login</Button>
       </div>
     );
 };
