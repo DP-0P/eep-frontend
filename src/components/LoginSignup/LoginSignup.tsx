@@ -36,6 +36,7 @@ const LoginSignup: React.FC<LoginSignupProps> = () => {
         />
         <TextField
           id="outlined-password-input"
+          required
           label="Password"
           type="password"
           autoComplete="current-password"
@@ -45,6 +46,7 @@ const LoginSignup: React.FC<LoginSignupProps> = () => {
           <TextField
             id="outlined-password-input"
             label="Confirm Password"
+            required
             type="password"
             autoComplete="current-password"
             sx={{ width: 300 }}
