@@ -1,8 +1,8 @@
-import './App.css'
-import Header from './components/Header/Header';
-import LoginSignup from './components/LoginSignup/LoginSignup';
-import Footer from './components/Footer/Footer';
-'../src/components/Header/Header.tsx'
+import "./App.css";
+import Header from "./components/Header/Header";
+import LoginSignup from "./components/LoginSignup/LoginSignup";
+import Footer from "./components/Footer/Footer";
+("../src/components/Header/Header.tsx");
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <LoginSignup></LoginSignup>
       <Footer title={"Oranization Name Copyright "}></Footer>
     </>
-  )
+  );
 }
 
 export default App;
