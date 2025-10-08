@@ -1,15 +1,19 @@
 .footerClass {
-  background-color: #7eb6e6;
+  background-color: #1976d2;
   padding: 10px;
   text-align: center;
   font-family: Roboto;
-  font-size: 7px;
+  font-size: 6px;
   color: #ffffff;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  min-height: 100vh;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
 }
-.copyRightIcon{
-    color: red;
+.copyRightIcon {
+  color: white;
+  vertical-align: middle;
 }
