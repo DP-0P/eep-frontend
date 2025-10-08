@@ -16,9 +16,8 @@
   align-items: center;
   /* min-height: 70vh; */
 }
-
 .loginView {
-  padding-top: 10px;
+  /* padding-top: 2px; */
   justify-content: center;
   align-items: center;
   display: flex;
